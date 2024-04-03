@@ -1,0 +1,13 @@
+.sideNavbar{
+    width: 280px;
+    background-color: #ddb18c;
+}
+.icon button
+{
+    background-color: transparent;
+    border:none;
+}
+.icon svg
+{
+    font-size: x-large;
+}
