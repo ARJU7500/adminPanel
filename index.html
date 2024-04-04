@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -12,105 +10,222 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <!-- google font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      rel="stylesheet"
-    />
     <!-- custom css link  -->
     <link rel="stylesheet" href="./css/Style.css" />
-
+    <!-- icon link  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Admin Panel</title>
   </head>
   <body>
-    <div class="section1">
-      <div class="row">
-        <!-- navbar -->
-        <div class="col-2 col-md-2 col-lg-2 sideNavbar">
-          <div
-            class="top d-flex justify-content-between align-items-center pt-3 px-3"
-          >
-            <div class="heading">
-              <h5 class="text-white">Boutique Admin</h5>
-            </div>
-            <div class="icon">
-              <button>
-                <svg
-                  class="text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="1em"
-                  height="1em"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M6.75 2.5A4.25 4.25 0 0 1 11 6.75V11H6.75a4.25 4.25 0 0 1 0-8.5M9 9V6.75A2.25 2.25 0 1 0 6.75 9zm-2.25 4H11v4.25A4.25 4.25 0 1 1 6.75 13m0 2A2.25 2.25 0 1 0 9 17.25V15zm10.5-12.5a4.25 4.25 0 0 1 0 8.5H13V6.75a4.25 4.25 0 0 1 4.25-4.25m0 6.5A2.25 2.25 0 1 0 15 6.75V9zM13 13h4.25A4.25 4.25 0 1 1 13 17.25zm2 2v2.25A2.25 2.25 0 1 0 17.25 15z"
-                  />
-                </svg>
-              </button>
-            </div>
+    <div class="mainSection d-flex justify-content-between">
+      <div class="leftSideBar">
+        <div
+          class="headBar p-2 d-flex justify-content-between align-items-center position-sticky z-index-1000 top-0"
+        >
+          <div class="heading">
+            <h5 class="text-white">Boutique Admin</h5>
           </div>
-          <ul class="nav flex-column p-5">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <div class="icon">
+            <button>
+              <svg
+                class="text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M6.75 2.5A4.25 4.25 0 0 1 11 6.75V11H6.75a4.25 4.25 0 0 1 0-8.5M9 9V6.75A2.25 2.25 0 1 0 6.75 9zm-2.25 4H11v4.25A4.25 4.25 0 1 1 6.75 13m0 2A2.25 2.25 0 1 0 9 17.25V15zm10.5-12.5a4.25 4.25 0 0 1 0 8.5H13V6.75a4.25 4.25 0 0 1 4.25-4.25m0 6.5A2.25 2.25 0 1 0 15 6.75V9zM13 13h4.25A4.25 4.25 0 1 1 13 17.25zm2 2v2.25A2.25 2.25 0 1 0 17.25 15z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="leftNavBar">
+          <ul class="nav navBar">
+            <li
+              class="nav-item d-flex flex-column justify-content-start align-items-start"
+            >
+              <a class="nav-link text-white" aria-current="page" href="#"
+                ><span class="material-icons"> house </span
+                ><span>Dashboard</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> person </span
+                ><span>Users Management</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> storefront </span>Merchants
+                Management
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link text-white" aria-current="page" href="#"
+                ><span class="material-icons"> shopping_cart </span>Item
+                Management</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> people </span>Sub Admin
+                Management</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> home_repair_service </span>Orders
+                Management</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link text-white" aria-current="page" href="#"
+                ><span class="material-icons"> article </span>Billing
+                Management</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> sell </span>Promotion Code
+                Management</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> view_list </span>Category
+                Management</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                ><span class="material-icons"> notifications </span
+                >Notification</a
+              >
+              <ul class="dropdown-menu dropdownMenu">
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    ><span class="material-icons"> horizontal_rule </span
+                    >Notifications</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    ><span class="material-icons"> horizontal_rule </span>Push
+                    Notifications</a
+                  >
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> headset_mic </span>Help & Support
+                Management</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" aria-current="page" href="#"
+                ><span class="material-icons"> edit_square </span>Content
+                Management</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-white" href="#"
+                ><span class="material-icons"> logout </span>Logout</a
+              >
             </li>
           </ul>
         </div>
-        <div class="col-9 col-md-9 col-lg-9">user profile</div>
+      </div>
+      <div class="rytSide">
+        <div
+          class="head d-flex bg-white justify-content-end align-items-center position-sticky overflow-visible top-0"
+        >
+          <div class="image">
+            <img src="./image/prifile.png" />
+          </div>
+          <div
+            class="userData d-flex flex-column justify-content-center align-content-center"
+          >
+            <h6>Emay Walter</h6>
+            <div class="d-flex justify-content-center align-items-center">
+              <p>Admin</p>
+              <p><span class="material-icons"> expand_more </span></p>
+            </div>
+          </div>
+        </div>
+        <div class="filter d-flex justify-content-end align-content-end">
+          <span class="material-icons"> filter_alt </span>
+        </div>
+        <div
+          class="boxes d-flex justify-content-between align-items-center mt-4 px-3"
+        >
+          <div class="box d-flex justify-content-between align-items-center">
+            <div class="line"></div>
+            <div class="data">
+              <h5>Total Revenue</h5>
+              <h4>6659 AED</h4>
+            </div>
+            <div class="sign">
+              <span class="material-icons"> attach_money </span>
+            </div>
+          </div>
+          <div class="box d-flex justify-content-between align-items-center">
+            <div class="line"></div>
+            <div class="data">
+              <h5>Total Orders</h5>
+              <h4>9856</h4>
+            </div>
+            <div class="sign">
+              <span class="material-icons"> shopping_bag </span>
+            </div>
+          </div>
+          <div class="box d-flex justify-content-between align-items-center">
+            <div class="line"></div>
+            <div class="data">
+              <h5>Total Products</h5>
+              <h4>853</h4>
+            </div>
+            <div class="sign">
+              <span class="material-icons"> home_repair_service </span>
+            </div>
+          </div>
+          <div class="box d-flex justify-content-between align-items-center">
+            <div class="line"></div>
+            <div class="data">
+              <h5>Total Customers</h5>
+              <h4>4.6k</h4>
+            </div>
+            <div class="sign">
+              <span class="material-icons"> people_alt </span>
+            </div>
+          </div>
+        </div>
+        <!-- fraph and tractions  -->
+        <div>
+          <div>revenue report</div>
+          <div>tractions reports</div>
+        </div>
+        <!-- recent order  -->
+        <div></div>
+        <!-- footer  -->
+        <div
+          class="footer d-flex justify-content-center align-items-center bg-white position-sticky bottom-0"
+        >
+          <p>Copyright 2024</p>
+        </div>
       </div>
     </div>
-    <!-- icon fontawesome kit -->
-    <script
-      src="https://kit.fontawesome.com/2b569c294b.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- bootstrap javascript  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

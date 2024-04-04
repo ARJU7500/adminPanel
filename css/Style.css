@@ -1,7 +1,14 @@
-.sideNavbar{
-    width: 280px;
+.leftSideBar
+{
     background-color: #ddb18c;
+    width: 20%;
 }
+.headBar
+{
+    background-color: #ddb18c;
+    height: 50px;
+}
+/* left head part  */
 .icon button
 {
     background-color: transparent;
@@ -11,3 +18,149 @@
 {
     font-size: x-large;
 }
+
+/* leftNavBar part  */
+.leftNavBar ul
+{
+    margin: 15px;
+}
+.leftNavBar ul li
+{
+    margin-top: 10px;
+}
+.leftNavBar li:hover
+{
+    background-color:#c3c9c83d ;
+    border-radius: 10px;
+}
+.leftNavBar ul li a
+{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+/* right side  */
+.rytSide{
+    width: 100%;
+    gap: 0px;
+}
+.rytSide .head
+{
+    height: 100px;
+    padding: 30px;
+    
+}
+.rytSide .image img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* filter  */
+.filter
+{
+    color: white;
+font-size: x-large;
+padding-right: 20px;
+}
+.filter span
+{
+    background-color: #ddb18c;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* dataBox */
+.box
+{
+    height: 120px;
+    border-radius: 10px;
+    padding:15px;
+    gap: 10px;
+}
+.box .line
+{
+    width: 5px;
+    background-color: #ddb18c;
+    height: 80px;
+}
+.box .sign
+{
+    color: white;
+    background-color: #ddb18c;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .sign span
+{
+    font-size: xx-large;
+}
+
+.box .data h5
+{
+    color: #aba8a5;
+}
+.box:hover{
+    background-color: rgb(249, 250, 251);
+    animation-duration: 2000;
+    border: 1px solid lightslategray;
+}
+
+.footer{
+    height: 65px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navBar li
+{
+    margin: 10px 0px 0px 0px;
+}
+.navBar li a
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+.navBar{
+    padding: 0px;
+}
+.navBar li:hover
+{
+    background-color: #c3c9c83d; 
+    border-radius:10px ;
+}
+.dropdownMenu
+{
+    background-color: #ddb18c;
+}
+.dropdownMenu li a:hover
+{
+    background-color: #c3c9c83d; 
+} */
