@@ -150,7 +150,7 @@
       </div>
       <div class="rytSide">
         <div
-          class="head d-flex bg-white justify-content-end align-items-center position-sticky overflow-visible top-0"
+          class="head d-flex bg-white justify-content-end align-items-center position-sticky overflow-visible top-0 gap-2"
         >
           <div class="image">
             <img src="./image/prifile.png" />
@@ -161,64 +161,190 @@
             <h6>Emay Walter</h6>
             <div class="d-flex justify-content-center align-items-center">
               <p>Admin</p>
-              <p><span class="material-icons"> expand_more </span></p>
+              <span class="material-icons"> expand_more </span>
             </div>
           </div>
         </div>
-        <div class="filter d-flex justify-content-end align-content-end">
-          <span class="material-icons"> filter_alt </span>
+        <div class="allDataBox">
+          <div class="filter d-flex justify-content-end align-content-end">
+            <button><span class="material-icons"> filter_alt </span></button>
+          </div>
+          <div
+            class="boxes d-flex justify-content-between align-items-center mt-4 px-3"
+          >
+            <div
+              class="box d-flex justify-content-between align-items-center gap-3"
+            >
+              <div class="line"></div>
+              <div class="data">
+                <h6>Total Revenue</h6>
+                <h4>6659 AED</h4>
+              </div>
+              <div class="sign">
+                <span class="material-icons"> attach_money </span>
+              </div>
+            </div>
+            <div
+              class="box d-flex justify-content-between align-items-center gap-3"
+            >
+              <div class="line"></div>
+              <div class="data">
+                <h6>Total Orders</h6>
+                <h4>9856</h4>
+              </div>
+              <div class="sign">
+                <span class="material-icons"> shopping_bag </span>
+              </div>
+            </div>
+            <div
+              class="box d-flex justify-content-between align-items-center gap-3"
+            >
+              <div class="line"></div>
+              <div class="data">
+                <h6>Total Products</h6>
+                <h4>853</h4>
+              </div>
+              <div class="sign">
+                <span class="material-icons"> home_repair_service </span>
+              </div>
+            </div>
+            <div
+              class="box d-flex justify-content-between align-items-center gap-3"
+            >
+              <div class="line"></div>
+              <div class="data">
+                <h6>Total Customers</h6>
+                <h4>4.6k</h4>
+              </div>
+              <div class="sign">
+                <span class="material-icons"> people_alt </span>
+              </div>
+            </div>
+          </div>
+          <!-- graph and tractions  -->
+          <div class="d-flex justify-content-between mt-5">
+            <div class="w-50"><h1>revenue report</h1></div>
+            <div class="tableData">
+              <h4 class="px-10">Transactions</h4>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="tData">
+                      <div class="d-flex gap-3">
+                        <div class="icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                          >
+                            <path
+                              d="M3.78307 2.82598L12 1L20.2169 2.82598C20.6745 2.92766 21 3.33347 21 3.80217V13.7889C21 15.795 19.9974 17.6684 18.3282 18.7812L12 23L5.6718 18.7812C4.00261 17.6684 3 15.795 3 13.7889V3.80217C3 3.33347 3.32553 2.92766 3.78307 2.82598ZM5 4.60434V13.7889C5 15.1263 5.6684 16.3752 6.7812 17.1171L12 20.5963L17.2188 17.1171C18.3316 16.3752 19 15.1263 19 13.7889V4.60434L12 3.04879L5 4.60434Z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="transer_table_data">
+                          <h6>Wallets</h6>
+                          <p>Starbucks</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td><h4 class="result">-74 AED</h4></td>
+                  </tr>
+                  <tr>
+                    <td class="tData1">
+                      <div class="d-flex gap-3">
+                        <div class="icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                          >
+                            <path
+                              d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="transer_table_data">
+                          <h6>Bank Transfer</h6>
+                          <p>Add Money</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td><h4 class="result">+125 AED</h4></td>
+                  </tr>
+                  <tr>
+                    <td class="tData1">
+                      <div class="d-flex gap-3">
+                        <div class="icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                          >
+                            <path
+                              d="M19.3788 15.1057C20.9258 11.4421 19.5373 7.11431 16.0042 5.0745C13.4511 3.60046 10.4232 3.69365 8.03452 5.0556L7.04216 3.31879C10.028 1.61639 13.8128 1.4999 17.0042 3.34245C21.4949 5.93513 23.2139 11.4848 21.1217 16.112L22.4635 16.8867L18.2984 19.1008L18.1334 14.3867L19.3788 15.1057ZM4.62961 8.89968C3.08263 12.5633 4.47116 16.8911 8.00421 18.9309C10.5573 20.4049 13.5851 20.3118 15.9737 18.9499L16.9661 20.6867C13.9803 22.389 10.1956 22.5055 7.00421 20.663C2.51357 18.0703 0.794565 12.5206 2.88672 7.89342L1.54492 7.11873L5.70999 4.90463L5.87505 9.61873L4.62961 8.89968ZM8.50421 14.0027H14.0042C14.2804 14.0027 14.5042 13.7788 14.5042 13.5027C14.5042 13.2266 14.2804 13.0027 14.0042 13.0027H10.0042C8.6235 13.0027 7.50421 11.8834 7.50421 10.5027C7.50421 9.122 8.6235 8.00271 10.0042 8.00271H11.0042V7.00271H13.0042V8.00271H15.5042V10.0027H10.0042C9.72807 10.0027 9.50421 10.2266 9.50421 10.5027C9.50421 10.7788 9.72807 11.0027 10.0042 11.0027H14.0042C15.3849 11.0027 16.5042 12.122 16.5042 13.5027C16.5042 14.8834 15.3849 16.0027 14.0042 16.0027H13.0042V17.0027H11.0042V16.0027H8.50421V14.0027Z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="transer_table_data">
+                          <h6>PayPal</h6>
+                          <p>Add Money</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td><h4 class="result">-50 AED</h4></td>
+                  </tr>
+                  <tr>
+                    <td class="tData1">
+                      <div class="d-flex gap-3">
+                        <div class="icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                          >
+                            <path
+                              d="M3.00488 2.99979H21.0049C21.5572 2.99979 22.0049 3.4475 22.0049 3.99979V19.9998C22.0049 20.5521 21.5572 20.9998 21.0049 20.9998H3.00488C2.4526 20.9998 2.00488 20.5521 2.00488 19.9998V3.99979C2.00488 3.4475 2.4526 2.99979 3.00488 2.99979ZM20.0049 10.9998H4.00488V18.9998H20.0049V10.9998ZM20.0049 8.99979V4.99979H4.00488V8.99979H20.0049ZM14.0049 14.9998H18.0049V16.9998H14.0049V14.9998Z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="transer_table_data">
+                          <h6>Mastercard</h6>
+                          <p>Ordered Food</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td><h4 class="result">-40 AED</h4></td>
+                  </tr>
+                  <tr>
+                    <td class="tData1">
+                      <div class="d-flex gap-3">
+                        <div class="icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                          >
+                            <path
+                              d="M2 12H4V21H2V12ZM5 14H7V21H5V14ZM16 8H18V21H16V8ZM19 10H21V21H19V10ZM9 2H11V21H9V2ZM12 4H14V21H12V4Z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="transer_table_data">
+                          <h6>Transfer</h6>
+                          <p>Refund</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td><h4 class="result">+90 AED</h4></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- recent order  -->
+          <div></div>
         </div>
-        <div
-          class="boxes d-flex justify-content-between align-items-center mt-4 px-3"
-        >
-          <div class="box d-flex justify-content-between align-items-center">
-            <div class="line"></div>
-            <div class="data">
-              <h5>Total Revenue</h5>
-              <h4>6659 AED</h4>
-            </div>
-            <div class="sign">
-              <span class="material-icons"> attach_money </span>
-            </div>
-          </div>
-          <div class="box d-flex justify-content-between align-items-center">
-            <div class="line"></div>
-            <div class="data">
-              <h5>Total Orders</h5>
-              <h4>9856</h4>
-            </div>
-            <div class="sign">
-              <span class="material-icons"> shopping_bag </span>
-            </div>
-          </div>
-          <div class="box d-flex justify-content-between align-items-center">
-            <div class="line"></div>
-            <div class="data">
-              <h5>Total Products</h5>
-              <h4>853</h4>
-            </div>
-            <div class="sign">
-              <span class="material-icons"> home_repair_service </span>
-            </div>
-          </div>
-          <div class="box d-flex justify-content-between align-items-center">
-            <div class="line"></div>
-            <div class="data">
-              <h5>Total Customers</h5>
-              <h4>4.6k</h4>
-            </div>
-            <div class="sign">
-              <span class="material-icons"> people_alt </span>
-            </div>
-          </div>
-        </div>
-        <!-- fraph and tractions  -->
-        <div>
-          <div>revenue report</div>
-          <div>tractions reports</div>
-        </div>
-        <!-- recent order  -->
-        <div></div>
         <!-- footer  -->
         <div
           class="footer d-flex justify-content-center align-items-center bg-white position-sticky bottom-0"

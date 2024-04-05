@@ -56,21 +56,31 @@ gap: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
+.allDataBox
+{
+    background-color: #f9f9f6;
+}
+.userData h6,p
+{
+    margin: 0%;
+}
 /* filter  */
 .filter
 {
-    color: white;
-font-size: x-large;
 padding-right: 20px;
+padding-top: 10px;
+}
+.filter button
+{
+    border:none;
+    background-color: transparent;
 }
 .filter span
 {
+    color: white;
+    font-size: x-large;
     background-color: #ddb18c;
     border-radius: 50%;
     padding: 10px;
@@ -79,20 +89,24 @@ padding-right: 20px;
 /* dataBox */
 .box
 {
-    height: 120px;
+    height: 100px;
     border-radius: 10px;
-    padding:15px;
-    gap: 10px;
+    padding:25px;
+    gap: 5px;
+    background-color:#ffffff;
+    transition-property: padding;
+    transition-duration: 2ms;
+    transition-delay: 1ms;
 }
 .box .line
 {
-    width: 5px;
+    width: 3px;
     background-color: #ddb18c;
-    height: 80px;
+    height: 70px;
 }
 .box .sign
 {
-    color: white;
+    color: rgb(249, 250, 251);
     background-color: #ddb18c;
     height: 60px;
     width: 60px;
@@ -106,16 +120,67 @@ padding-right: 20px;
     font-size: xx-large;
 }
 
-.box .data h5
+.box .data h6
 {
     color: #aba8a5;
 }
 .box:hover{
-    background-color: rgb(249, 250, 251);
-    animation-duration: 2000;
-    border: 1px solid lightslategray;
+    background-color: white;
 }
 
+
+/* tractions */
+/* table part */
+.tableData
+{
+    width: 50%;
+    background-color: white;
+    box-shadow: white;
+}
+table
+{
+    border: white;
+    padding: 10px;
+}
+.tData .icon
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbe4ea;
+}
+.tData svg{
+    width: 20px;
+    color: #e23665;
+}
+.tData1 .icon
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e5f8ee;
+}
+.tData1 svg{
+    width: 20px;
+    color: #77d096;
+}
+tr .result
+{
+    color: #ddb18c;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.transer_table_data h6,p
+{
+margin: 0%;
+}
 .footer{
     height: 65px;
     }
